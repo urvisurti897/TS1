@@ -3,20 +3,12 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/urvisurti897/TS1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/urvisurti897/TS1/issues"
-  },
-  "homepage": "https://github.com/urvisurti897/TS1#readme",
-  "description": "",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@types/jest": "^27.5.2",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.9.5"
   }
 }
